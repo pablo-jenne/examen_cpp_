@@ -1,0 +1,15 @@
+#ifndef HOOFD_H
+#define HOOFD_H
+#include <iostream>
+#include <stdlib.h>
+
+class hoofd
+{
+public:
+    
+    hoofd() {}
+    virtual ~hoofd(){}
+    virtual void count(int aantal);
+};
+
+#endif // HOOFD_H
